@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <script defer src="./js/script.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+  <main>
+    <section class="pokemon">
+      <div class="pokemon_card">
+        <figure class="pokedex">
+          <img class="pokemon__image" alt="pokemon">
+          <img src="./images/pokede_display.png" alt="display_pokedex" class="pokedex__display"></img>
+
+          <h1 class="pokemon__data">
+            <span class="pokemon__data--number"></span> °
+            <span class="pokemon__data--name"></span>
+          </h1>
+        </figure>
+
+        <div class="pokemon__listeners">
+           <form class="form">
+            <input class="input__search" type="search" placeholder="Nombre o Número" required/>
+          </form>
+      
+          <div class="buttons">
+            <button class="button btn-prev">&lt; Prev </button>
+            <button class="button btn-next">Next &gt;</button>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+        <div class="info__stats--panel">
+            <div class="info__stats"></div>
+            <div class="info__types"></div>
+          </div>
+    </section>
+
+  </main>
+  
+</body>
+</html>
